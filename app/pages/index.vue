@@ -11,7 +11,7 @@
 <style lang="scss" scoped>
 div {
   a {
-    font-size: 50px;
+    font-size: 20px;
   }
 }
 </style>

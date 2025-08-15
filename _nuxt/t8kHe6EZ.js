@@ -1,0 +1,1 @@
+import{_ as n}from"./CRJhPcN_.js";import{e as a,c as s,o as _,d as e,b as r,w as m}from"./DPpbJBSJ.js";const u=a({__name:"index",setup(p){return(d,t)=>{const o=n;return _(),s("div",null,[t[1]||(t[1]=e(" Backstage ",-1)),r(o,{to:"/"},{default:m(()=>t[0]||(t[0]=[e("Back to index",-1)])),_:1,__:[0]})])}}});export{u as default};

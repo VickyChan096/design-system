@@ -1,0 +1,177 @@
+//  Variable / @mixin / @function Settings
+
+// ColorPrimary
+$primary: #4eacba;
+// $primary-dark: #138b9d;
+// $primary-light: #e8f6f4;
+// // ColorSecondary
+// $secondary: #ba9370;
+// $secondary-dark: #826043;
+// $secondary-light: #f9e8da;
+// // ColorStatus
+// $success: #55a967;
+// $error: #ff706b;
+// // ColorSystem
+// $title: #626161;
+// $font: #3b4b58;
+// $placeholder: #a0a0a0;
+// $divider: #bababa;
+// $disabled: #e8e8e8;
+// $background: #fdfeff;
+// $stroke: #e5e5e5;
+// $selected: #ff706b;
+// $selected-light: #ffefef;
+// // BorderRadius
+// $border-radius-s: 4px;
+// $border-radius-m: 8px;
+// $border-radius-l: 50px;
+// // BoxShadow
+// // Transition
+// $transition-fast: all 0.2s ease-in-out;
+// $transition-slow: all 0.5s ease-in-out;
+// // Z-index
+// $z-map: 1;
+// $z-panel: 2;
+// $z-header: 100;
+// $z-dialog: 1000;
+// $z-to-top: 1010;
+// $z-alert: 1020;
+// $z-fetch-loading: 9999;
+// // ComponentHeight
+// $backstage-header-height: 60px;
+// // ComponentWidth
+// // FocusVisible
+// $focus-visible: 4px dashed $secondary;
+// // FontFamily
+// $font-family-sans: 'roboto', 'Noto Sans TC', sans-serif;
+// // FontSize
+// $font-head1: 2rem; // 32px
+// $font-head2: 1.75rem; // 28px
+// $font-head3: 1.5rem; // 24px
+// $font-head4: 1.25rem; // 20px
+// $font-body1: 1rem; // 16px
+// $font-body2: 0.875rem; // 14px
+// // FontWeight
+// $font-weight-bold: 700;
+// $font-weight-medium: 500;
+// $font-weight-regular: 400;
+// $font-weight-thin: 100;
+// // LineHeight
+// $line-height: 1.5;
+// // LetterSpacing
+// @function calc-letter-spacing($font-size, $multiplier: 0.02) {
+//   @return $font-size * $multiplier;
+// }
+// // WordSpacing
+// // @function calc-word-spacing($font-size, $multiplier: 0.16) {
+// //   @return $font-size * $multiplier;
+// // }
+
+// @mixin Head1-medium {
+//   font-family: $font-family-sans;
+//   font-size: $font-head1;
+//   font-weight: $font-weight-medium;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-head1);
+//   @content;
+// }
+// @mixin Head2-medium {
+//   font-family: $font-family-sans;
+//   font-size: $font-head2;
+//   font-weight: $font-weight-medium;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-head2);
+//   @content;
+// }
+// @mixin Head3-medium {
+//   font-family: $font-family-sans;
+//   font-size: $font-head3;
+//   font-weight: $font-weight-medium;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-head3);
+//   @content;
+// }
+// @mixin Head4-medium {
+//   font-family: $font-family-sans;
+//   font-size: $font-head4;
+//   font-weight: $font-weight-medium;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-head4);
+//   @content;
+// }
+// @mixin Body1-bold {
+//   font-family: $font-family-sans;
+//   font-size: $font-body1;
+//   font-weight: $font-weight-bold;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-body1);
+//   @content;
+// }
+// @mixin Body1-medium {
+//   font-family: $font-family-sans;
+//   font-size: $font-body1;
+//   font-weight: $font-weight-medium;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-body1);
+//   @content;
+// }
+// @mixin Body1-regular {
+//   font-family: $font-family-sans;
+//   font-size: $font-body1;
+//   font-weight: $font-weight-regular;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-body1);
+//   @content;
+// }
+// @mixin Body2-medium {
+//   font-family: $font-family-sans;
+//   font-size: $font-body2;
+//   font-weight: $font-weight-medium;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-body2);
+//   @content;
+// }
+// @mixin Body2-regular {
+//   font-family: $font-family-sans;
+//   font-size: $font-body2;
+//   font-weight: $font-weight-regular;
+//   line-height: $line-height;
+//   letter-spacing: calc-letter-spacing($font-body2);
+//   @content;
+// }
+
+// @mixin largeDesktop {
+//   @media only screen and (max-width: 2560px) {
+//     @content;
+//   }
+// }
+// @mixin desktop {
+//   @media only screen and (max-width: 1920px) {
+//     @content;
+//   }
+// }
+// @mixin min-desktop {
+//   @media only screen and (max-width: 1440px) {
+//     @content;
+//   }
+// }
+// @mixin pad {
+//   @media only screen and (max-width: 1200px) {
+//     @content;
+//   }
+// }
+// @mixin mobile {
+//   @media only screen and (max-width: 767px) {
+//     @content;
+//   }
+// }
+// @mixin min-mobile {
+//   @media only screen and (max-width: 375px) {
+//     @content;
+//   }
+// }
+// @mixin hover {
+//   @media (hover: hover) {
+//     @content;
+//   }
+// }
